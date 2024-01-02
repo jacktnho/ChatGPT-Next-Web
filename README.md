@@ -261,6 +261,14 @@ yarn install
 yarn dev
 ```
 
+### Build for Apple Sillicon
+
+```shell
+# install rust by yourself
+yarn add -D @tauri-apps/cli
+yarn tauri build --target aarch64-apple-darwin
+```
+
 ## Deployment
 
 > [简体中文 > 如何部署到私人服务器](./README_CN.md#部署)
